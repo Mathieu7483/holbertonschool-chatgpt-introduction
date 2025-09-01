@@ -5,7 +5,7 @@ def factorial(n):
     result = 1
     while n > 1:
         result *= n
-        n -= 1   # décrémentation pour éviter la boucle infinie
+        n -= 1   # décrémenter sinon boucle infinie
     return result
 
 f = factorial(int(sys.argv[1]))
